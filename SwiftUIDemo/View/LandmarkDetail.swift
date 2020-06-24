@@ -25,6 +25,7 @@ struct LandmarkDetail: View {
             VStack(alignment: .leading) {
                 Text(landmark.name)
                     .font(.title)
+                    .bold()
                 HStack(alignment: .top) {
                     Text(landmark.park)
                         .font(.subheadline)
